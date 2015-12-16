@@ -1,0 +1,39 @@
+#INFO#|RenderInterface Logfile:
+
+#INFO#|Loading options...
+#INFO#|Loading options finished!
+#INFO#|[VOnInit: Initializing...]
+#INFO#|Loading Direct3D...
+#INFO#|Create Direct3D-Device...
+#INFO#|Loading Direct3D finished!
+#INFO#|Initializing Texture Manager
+#INFO#|[D9Texture: Restore ..\..\Data\Demos\Textures\default.dds]
+#INFO#|D9Texture: Loading into Memory...
+#INFO#|D9Texture: Loading into VRam.
+#INFO#|[D9Texture: Restore OK]
+#INFO#|--D9TextureManager created!--
+#INFO#|Initializing 2DRenderer...
+#INFO#|D92DRenderer::OnRestore: Restoring Buffers.
+#INFO#|[VOnInit: ...Initializing finished!]
+#INFO#|D9TextureManager: Add '..\..\Data\Demos\Textures\orion.jpg' to the Manager.
+#INFO#|[D9Texture: Restore ..\..\Data\Demos\Textures\orion.jpg]
+#INFO#|D9Texture: Loading into Memory...
+#INFO#|D9Texture: Loading into VRam.
+#INFO#|[D9Texture: Restore OK]
+#INFO#|D9TextureManager: Add '..\..\Data\Demos\Textures\planet.dds' to the Manager.
+#INFO#|[D9Texture: Restore ..\..\Data\Demos\Textures\planet.dds]
+#INFO#|D9Texture: Loading into Memory...
+#INFO#|D9Texture: Loading into VRam.
+#INFO#|[D9Texture: Restore OK]
+#INFO#|D9TextureManager: Add '..\..\Data\Demos\Textures\ship.dds' to the Manager.
+#INFO#|[D9Texture: Restore ..\..\Data\Demos\Textures\ship.dds]
+#INFO#|D9Texture: Loading into Memory...
+#INFO#|D9Texture: Loading into VRam.
+#INFO#|[D9Texture: Restore OK]
+#INFO#|D92DRenderer::~D92DRenderer: Destroying.
+#INFO#|D9Texture: Releasing Texture and the copy in memory: ..\..\Data\Demos\Textures\orion.jpg.
+#INFO#|D9Texture: Releasing Texture and the copy in memory: ..\..\Data\Demos\Textures\planet.dds.
+#INFO#|D9Texture: Releasing Texture and the copy in memory: ..\..\Data\Demos\Textures\ship.dds.
+#INFO#|D9Texture: Releasing Texture and the copy in memory: ..\..\Data\Demos\Textures\default.dds.
+#INFO#|--D9TextureManager deleted!--
+#INFO#|Deleting RenderInterface...

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnCopyable" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RICamera" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAQBAAAASAgDAAAAJAAIAAAAAAAAEAAAQABAQAgA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RICamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RIColor" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Handle&lt;TAG&gt;" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAAAAAAAAQAAgAIAAAAAAAAAIIAAAiAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIHandleMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HandleMgr&lt;DATA, HANDLE&gt;" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAICAKAAAABAEoAAAAAQAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIHandleMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RIRandom" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAAAAEAAAAAgAAACAAAAQBAAACAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIMath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RIMatrix2D" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAIAAQAAEAgAAAAAAEAkAAACAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIMatrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RIRenderer" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAkAAAAABBAACAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RIRenderInterface" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAmAAIQADAAAAAAQAAKAYAALAEABAAACBAgCACAAIiI=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RITextureManager" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAEAAAIAAAACBAAAAQAAACAAAoAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RIServiceLocator" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAACAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIServiceLocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RITransformable" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAEAAlCCAAQBMAIIAAAAAEAAAAgoAAQEAgAAIAgA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RITransformable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RIVec4" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAACAAAAQAACQEAAAAAAAhgAQAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIVec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec2" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAADAAAAwAACQEAAAAAIABgAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIVec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RIRect&lt;T&gt;" Collapsed="true">
+    <Position X="1.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQASAAAAAgAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="textureTAG" Collapsed="true">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderInterface.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="U8" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="I8" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="U16" Collapsed="true">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="I16" Collapsed="true">
+    <Position X="17.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="U32" Collapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="I32" Collapsed="true">
+    <Position X="19" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="U64" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="I64" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RIIntRect" Collapsed="true">
+    <Position X="1.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RIFloatRect" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DWORD" Collapsed="true">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIColor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CREATERENDERINTERFACE" Collapsed="true">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderInterface.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RELEASERENDERINTERFACE" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderInterface.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HTexture" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderInterface.h</FileName>
+    </TypeIdentifier>
+    <AliasOfLine Type="Handle&lt;TAG&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="8.75" />
+        <Point X="6.25" Y="7.312" />
+      </Path>
+    </AliasOfLine>
+  </Typedef>
+  <Enum Name="stencilTest_t" Collapsed="true">
+    <Position X="15.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAUAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\Programmieren\RIRenderInterface\0.2 - Replacing transformations with matrices\Include\RIRenderInterface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

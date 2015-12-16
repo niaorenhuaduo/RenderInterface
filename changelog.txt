@@ -1,0 +1,84 @@
+///-------------- 0.2 ------------------\\\
+-Matrix2D added
+-Transformable added   						// transformable component computes matrix for translation/rotation/scaling
+-RICamera added, it isn't incorporated in RIInterface yet	// Describes the part of the world that is displayed on the viewport of the Screen.
+-Added RICamera to RIRenderInterface
+-Addes RIServiceLocator to provide global access to TextureManager
+-Made the classes more stable
+-Removed GUIORDER in RenderInterface::DrawPic
+-Moved the RI header files from the project folder to the Include folder
+-Reworked RISprite completely, implemented matrix transformation, Added animations
+-Removed Entity
+-Adjusted everything in the d9 dll accordingly
+-Added RIRenderState
+-Added RIVertex2D
+
+///-------------- 0.2.1 ------------------\\\
+-REMOVED options.dat, YOU HAVE TO USE renderSystemSettings NOW TO INITIALIZE THE RENDERSYSTEM
+-TRANSFORMED RI from a static lib to a dynamic library -> MANY CHANGES
+-REMOVED RIRenderer COMPLETELY, THE IMPLEMENTATION DLL GETS LOADED AND DESTROYED THROUGH
+ *IRenderSystem::CreateRenderSystem
+ *IRenderSystem::ReleaseRenderSystem
+-PUT EVERYTHING IN NAMESPACE ri
+-Cleaned up RI.h
+-Remove rhw from guivert_t
+-Removed stenciltest from renderstate
+-Removed stenciltest from VDrawPic
+-Removed RICamera from RIRenderInterface
+-Added methods to change the camera of the RenderInterface: SetCameraPosition, SetCameraSize, SetViewport
+-Implementing these in D9RenderInterface
+-Call these methods in D9RenderInterface::VOnInit to initialize it to default
+-Change RIRenderInterface::VDrawPic to accept four vertices and a renderstate to draw
+-Adapt the D9RenderInterface::VDrawPic to the changes
+-Adjusted RISprite to the new VDrawPic
+-Adjustet D9RenderInterface::VSetCameraSize so it considers aspect ration => width/height relations remain on screen now
+-Changed the size of the background texture
+-Edit VASSIST SNIPPETS, added /** and updated all comments, also added ///
+
+///-------------- 0.2.2 ------------------\\\
+-Made _CalcAndSetProjMatrix public in IRenderSystem for efficiency
+-Made _CalcAndSetViewMatrix public in IRenderSystem for efficiency
+-Added _Flush() to D9RenderSystem, this function flushes all stored sprites. It gets called whenever the device sets new settings:
+ *On _CalcAndSetProjMatrix 
+ *On _CalcAndSetViewMatrix 
+-Added Camera class to the RenderInterface. It uses the global renderSystem to apply itself
+-Adjusted the sampler
+
+///-------------- 0.2.3 ------------------\\\
+-Added _Draw to IRenderInterface. This can be used to draw an array of vertices with renderstates
+-Adjusted D92DRenderer to support primitive types and rendering without index buffer
+-Now the startup settings are getting loaded at startup from options.txt
+ *Added LoadOptions in SpaceWars Game class
+
+///-------------- 0.2.4 ------------------\\\
+-Adding image class. It represents a texture in system-memory that can be edited.
+-Adding the ability to create a texture from an image.
+ *Add LoadTextureFromImage to ITextureManager and in the implementation
+ *Change D9Texture to a base class with two childs. D9FileTexture & D9ImageTexture
+
+///-------------- 0.3.0 ------------------\\\
+-Finished the text renderer
+-Completed the font class
+-Added freetype to the 3rdParty folder and in the Include/library pathways of RI
+-Added visual leak detector
+-Added the ability to enable/disable vertical synchronisation in the Options.dat file
+-Added drawable as a base class for Sprite and Label
+-Addes Rectangle shape 
+-Added abilities to Label
+ *Bold
+ *Shadows
+ *Set/Get for text/size/color/..
+
+
+///-------------- 0.3.1 ------------------\\\
+-Added Getter to RectangleShape
+-Added GetGlobalBoundingBox to:
+ *RectangleShape
+ *Label
+ *Sprite
+
+-TODO: Add logger 
+-TODO: Add low-level stuff, wrapper for setting states and rendering
+-TODO: Add text-renderer
+-TODO: Image: Add the ability to load an image from file.
+-TODO: Font: Add error messaging with logger

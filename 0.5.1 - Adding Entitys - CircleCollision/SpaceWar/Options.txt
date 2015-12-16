@@ -1,0 +1,22 @@
+Width: 1920
+Height: 1080
+Windowed: yes
+VerticalSynchronisation: no
+TextureFilter: yes
+MultiSampling: no
+TextureFilesDirectory: ..\..\Data\Demos\Textures\
+FontFilesDirectory: ..\..\Data\Demos\Fonts\
+
+
+
+// TODO: Deadzone for controller
+
+// Standard
+//Width: 1280
+//Height: 800
+//Windowed: yes
+//VerticalSynchronisation: yes
+//TextureFilter: yes
+//MultiSampling: yes
+//TextureFilesDirectory: ..\..\Data\PixelPop\Textures\
+//FontFilesDirectory: ..\..\Data\PixelPop\Fonts\

@@ -1,0 +1,18 @@
+Width: 1920
+Height: 1080
+Windowed: no
+TextureFilter: no
+MultiSampling: no
+TextureFilesDirectory: ..\..\Data\Demos\Textures\
+
+
+
+// TODO: Deadzone for controller
+
+// Standard
+//Width: 1280
+//Height: 800
+//Windowed: yes
+//TextureFilter: yes
+//MultiSampling: yes
+//TextureFilesDirectory: ..\..\Data\Textures\

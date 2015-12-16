@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RI", "RI.vcxproj", "{92C2786D-1360-4B1C-909D-FCF6DF5E38AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RID9", "RID9\RID9.vcxproj", "{3BD6195D-29CB-4B4F-86CA-3C4976D4B598}"
+	ProjectSection(ProjectDependencies) = postProject
+		{92C2786D-1360-4B1C-909D-FCF6DF5E38AB} = {92C2786D-1360-4B1C-909D-FCF6DF5E38AB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine.vcxproj", "{79470448-7515-42EC-BAEE-2D74824CB9C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3BD6195D-29CB-4B4F-86CA-3C4976D4B598} = {3BD6195D-29CB-4B4F-86CA-3C4976D4B598}
+		{92C2786D-1360-4B1C-909D-FCF6DF5E38AB} = {92C2786D-1360-4B1C-909D-FCF6DF5E38AB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceWar", "..\SpaceWar\SpaceWar.vcxproj", "{245AC2E7-2B1C-417E-8B2B-099F10439554}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3BD6195D-29CB-4B4F-86CA-3C4976D4B598} = {3BD6195D-29CB-4B4F-86CA-3C4976D4B598}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C2786D-1360-4B1C-909D-FCF6DF5E38AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{92C2786D-1360-4B1C-909D-FCF6DF5E38AB}.Debug|Win32.Build.0 = Debug|Win32
+		{92C2786D-1360-4B1C-909D-FCF6DF5E38AB}.Release|Win32.ActiveCfg = Release|Win32
+		{92C2786D-1360-4B1C-909D-FCF6DF5E38AB}.Release|Win32.Build.0 = Release|Win32
+		{3BD6195D-29CB-4B4F-86CA-3C4976D4B598}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3BD6195D-29CB-4B4F-86CA-3C4976D4B598}.Debug|Win32.Build.0 = Debug|Win32
+		{3BD6195D-29CB-4B4F-86CA-3C4976D4B598}.Release|Win32.ActiveCfg = Release|Win32
+		{3BD6195D-29CB-4B4F-86CA-3C4976D4B598}.Release|Win32.Build.0 = Release|Win32
+		{79470448-7515-42EC-BAEE-2D74824CB9C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79470448-7515-42EC-BAEE-2D74824CB9C2}.Debug|Win32.Build.0 = Debug|Win32
+		{79470448-7515-42EC-BAEE-2D74824CB9C2}.Release|Win32.ActiveCfg = Release|Win32
+		{79470448-7515-42EC-BAEE-2D74824CB9C2}.Release|Win32.Build.0 = Release|Win32
+		{245AC2E7-2B1C-417E-8B2B-099F10439554}.Debug|Win32.ActiveCfg = Debug|Win32
+		{245AC2E7-2B1C-417E-8B2B-099F10439554}.Debug|Win32.Build.0 = Debug|Win32
+		{245AC2E7-2B1C-417E-8B2B-099F10439554}.Release|Win32.ActiveCfg = Release|Win32
+		{245AC2E7-2B1C-417E-8B2B-099F10439554}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
