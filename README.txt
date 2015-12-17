@@ -1,4 +1,11 @@
-Engine Design
+Requirements: 
+ *DIrect X SDK	(DXSDK_Jun10.exe)
+ *In Visual Studio $(DXSDK_DIR) has to point to the directory with the DXSDK frome june 2010
+
+
+
+===================== Engine Design =====================
+
 
 << 3rdParty >>
 Contains all projects that the main engine depends on
