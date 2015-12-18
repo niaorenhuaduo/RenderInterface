@@ -14,8 +14,8 @@
 #INFO#|D92DRenderer::OnRestore: Restoring Buffers.
 #INFO#|Initializing default Camera...
 #INFO#|[VOnInit: ...Initializing finished!]
-#INFO#|D9TextureManager: Add '..\..\Data\Demos\Textures\ocean.jpg' to the Manager.
-#INFO#|[D9FileTexture: Restore ..\..\Data\Demos\Textures\ocean.jpg]
+#INFO#|D9TextureManager: Add '..\..\Data\Demos\Textures\Dragon.jpg' to the Manager.
+#INFO#|[D9FileTexture: Restore ..\..\Data\Demos\Textures\Dragon.jpg]
 #INFO#|D9FileTexture: Loading into Memory...
 #INFO#|D9FileTexture: Loading into VRam.
 #INFO#|[D9Texture: Restore OK]
@@ -30,7 +30,7 @@
 #INFO#|D9FileTexture: Loading into VRam.
 #INFO#|[D9Texture: Restore OK]
 #INFO#|D92DRenderer::~D92DRenderer: Destroying.
-#INFO#|D9Texture: Releasing Texture and memory data from: ..\..\Data\Demos\Textures\ocean.jpg.
+#INFO#|D9Texture: Releasing Texture and memory data from: ..\..\Data\Demos\Textures\Dragon.jpg.
 #INFO#|D9Texture: Releasing Texture and memory data from: ..\..\Data\Demos\Textures\CollisionTest.png.
 #INFO#|D9Texture: Releasing Texture and memory data from: ..\..\Data\Demos\Textures\bubble.png.
 #INFO#|D9Texture: Releasing Texture and memory data from: ..\..\Data\Demos\Textures\default.dds.

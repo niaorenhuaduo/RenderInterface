@@ -27,7 +27,7 @@ public:
 		mArial.LoadFromFile("Arial.ttf");
 		mCash.LoadFromFile("CashCurrency.ttf");
 
-		ri::HTexture bgTex = ri::ServiceLocator::TexMgr().GetTexture("ocean.jpg");
+		ri::HTexture bgTex = ri::ServiceLocator::TexMgr().GetTexture("Dragon.jpg");
 		ri::HTexture collisionTex = ri::ServiceLocator::TexMgr().GetTexture("CollisionTest.png");
 
 		/********************************************************************/
@@ -38,8 +38,12 @@ public:
 		for(U32 i=0; i<mNumCircles; ++i) {
 			mpCircles[i] = rnew Circle();
 			mpCircles[i]->SetPosition(random.Random() * (ri::VIRTUALXRESOLUTION-100) + 50.0f, random.Random() * (ri::VIRTUALYRESOLUTION-100) + 50.0f);
-			mpCircles[i]->SetVelocity(ri::Vec2(300 + random.Random() * 200, 300 + random.Random() * 200));
-			mpCircles[i]->SetColor(ri::Color(200, 200, 255));
+			mpCircles[i]->SetVelocity(ri::Vec2(200 + random.Random() * 200, 200 + random.Random() * 200));
+
+			float scaling = random.Random() + 0.5f;
+			mpCircles[i]->Scale(scaling);
+			mpCircles[i]->SetMass(mpCircles[i]->GetMass() * scaling);
+			mpCircles[i]->SetColor(ri::Color(140 * scaling, 140 * scaling, 170 * scaling));
 		}
 
 		mpCircles[0]->SetPosition(static_cast<float>(ri::VIRTUALXRESOLUTION) / 2.0f, static_cast<float>(ri::VIRTUALYRESOLUTION) / 2.0f);
@@ -47,13 +51,13 @@ public:
 		mpCircles[0]->SetColor(ri::Color(255, 0, 0));
 		mpCircles[0]->SetVelocity(ri::Vec2(0.0f, 0.0f));
 
- 		mpCircles[1]->SetMass(10.0f);
- 		mpCircles[1]->SetVelocity(ri::Vec2(700.0f, 700.0f));
- 		mpCircles[1]->SetColor(ri::Color(128, 255, 128));
+ 		//mpCircles[1]->SetMass(10.0f);
+ 		//mpCircles[1]->SetVelocity(ri::Vec2(700.0f, 700.0f));
+ 		//mpCircles[1]->SetColor(ri::Color(128, 255, 128));
  
- 		mpCircles[2]->SetMass(0.5f);
- 		mpCircles[2]->SetVelocity(ri::Vec2(200.0f, 200.0f));
- 		mpCircles[2]->SetColor(ri::Color(128, 128, 255));
+ 		//mpCircles[2]->SetMass(0.5f);
+ 		//mpCircles[2]->SetVelocity(ri::Vec2(200.0f, 200.0f));
+ 		//mpCircles[2]->SetColor(ri::Color(128, 128, 255));
 
 
 
@@ -106,7 +110,7 @@ public:
 
 private:
 
-	static const U32 mNumCircles = 5;
+	static const U32 mNumCircles = 16;
 	Circle *mpCircles[mNumCircles];
 
 	ri::Sprite bg;

@@ -1,4 +1,4 @@
-
+3rdParty/
 
 *~
 
@@ -16,6 +16,7 @@
 *.userprefs
 
 # Build results
+[Ll]ib/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/

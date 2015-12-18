@@ -1,9 +1,9 @@
 Width: 1920
 Height: 1080
-Windowed: yes
-VerticalSynchronisation: no
+Windowed: no
+VerticalSynchronisation: yes
 TextureFilter: yes
-MultiSampling: no
+MultiSampling: yes
 TextureFilesDirectory: ..\..\Data\Demos\Textures\
 FontFilesDirectory: ..\..\Data\Demos\Fonts\
 
